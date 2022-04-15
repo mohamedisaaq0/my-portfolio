@@ -2,11 +2,13 @@
 html {
     font-size: 10pt;
     flex-wrap: wrap;
-}
+    
+} 
 
 body {
     margin: 0;
-    background-color: azure
+    background-color: azure;
+    border-bottom: #2a607c solid 50px;
 }
 
 /* header & nav styles */
@@ -38,6 +40,8 @@ body {
 
 .nav-link {
     margin: 1.6rem;
+    font-size: large;
+    font-family: sans-serif;
     
 }
 
@@ -57,7 +61,6 @@ body {
 /* profile pic styling */
 
 .image-container{
-    background-image: url("");
     display: flex;
 justify-content: center;
     
@@ -69,15 +72,6 @@ justify-content: center;
     border: 5px solid #2a607c;
     border-radius: 50%;
     margin: 1.6rem;
-}
-
-
-@media  screen and (max-width: 596px) {
-    .image-container {
-        display: flex ;
-        flex-wrap: wrap;
-    }
-    
 }
 
 
@@ -102,22 +96,65 @@ h1 {
 
 .about-paragraph {
     font-size: 1.6rem;
+    text-align: center;
 }
 
+
+
 /* Section - work */
+
+h2 {
+    color: #2a607c;
+    text-align: center;
+    text-shadow:  10%;
+}
 
 img {
 max-width: 300px;
 max-height: 500px;
+border-radius: 5%
 }
 
-div {
+.projects:hover {
+    transform: scale(1.5);
+    border-radius: 0%;
+}
+
+.work-flex {
     display: flex;
     flex-wrap: wrap;
     gap: 150px;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
+
+/* section - contact me */
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+
+.email {
+    text-decoration: none;
+    color: black;
+}
+
+li:hover {
+    transform: scale(2);
+}
+h3 {
+    font-size: x-large;
+}
+
+span {
+    font-size: xx-large;
+}
+
+/* media queries */
 
 @media screen and (max-width: 596px) {
     .header-container {
@@ -133,37 +170,25 @@ div {
         font-size: medium;
     }
 
-     div {
+    .work-flex {
         gap: 50px
     }
 
     img {
         margin-left: 65px
     }
-    
-}
 
-
-@media screen and (max-width: 789px) {
-    .header-container {
-        flex-direction: column;
-        align-items: center;
+        .image-container {
+        display: flex ;
+        flex-wrap: wrap;
     }
 
-    .header {
-        font-size: 2.5rem;
-    }
-
-    .nav-link a {
-        font-size: medium;
-    }
-
-     div {
-        gap: 50px
-    }
-
-    img {
-        margin-left: 65px
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+        flex-wrap: wrap;
     }
     
 }
