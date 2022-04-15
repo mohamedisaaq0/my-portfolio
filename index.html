@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <title>My portfolio</title>
+    <title>My Portfolio</title>
   </head>
   <body>
     <!-- Header with nav bar-->
@@ -24,51 +24,75 @@
         </div>
         <!--Nav link-->
         <div class="nav-link">
-          <a href="#contact-Me">Contact Me</a>
+          <a href="#contact-me">Contact Me</a>
         </div>
       </nav>
     </header>
     <main>
-        <!--profile pic-->
-        <div class="image-container">
-            <img class="profile-pic" src="./my pic.jpg" alt="profile picture">
-        </div>
+      <!--profile pic-->
+      <div class="image-container">
+        <img class="profile-pic" src="./my pic.jpg" alt="profile picture" />
+      </div>
       <!--section for about me-->
       <section class="about-me-container" id="about-me">
-          <h1 class="h1-me">Hi! I'm Mohamed Hassan</h1>
-          <p class="about-paragraph">I'm a Junior DevOps(formely a Network Enigneer) in Birmingham, Uk. I am an experienced problem solver and possess good organizational and management skills. I enjoy working
-            in a grouped environment as well as individually. I have excellent communication skills and can follow
-            tasks/instructions carefully. Im also a Manchester City fan, who enjoys playing football.</p>
+        <h1 class="h1-me">Hi! I'm Mohamed Hassan</h1>
+        <p class="about-paragraph">
+          I'm a Junior DevOps(formely a Network Enigneer) in Birmingham, Uk. I
+          am an experienced problem solver and possess good organizational and
+          management skills. I enjoy working in a grouped environment as well as
+          individually. I have excellent communication skills and can follow
+          tasks/instructions carefully. Im also a Manchester City fan, who
+          enjoys playing football.
+        </p>
       </section>
 
       <!--section for work-->
       <section class="work-container" id="work">
-          <h1 >Work</h1>
-          <div>
+        <h1>Work</h1>
+        <div class="work-flex">
           <!-- horiseon homepage project -->
           <section>
-              <a href="https://mohamedisaaq0.github.io/week1-homework/">
-              <img class="horiseon" src="./01-html-css-git-homework-demo.png" alt="horiseon homepage">
+              <h2>Semantic HTML Project</h2>
+            <a href="https://mohamedisaaq0.github.io/week1-homework/">
+              <img
+                class="projects"
+                src="./01-html-css-git-homework-demo.png"
+                alt="horiseon homepage"
+              />
             </a>
           </section>
           <!-- mini project 1 -->
           <section>
+              <h2>Project 1</h2>
             <a href="https://mohamedisaaq0.github.io/week-1-mini-project/">
-                <img class="week1" src="week1-mini-project.png" alt="Audi A4 S line webpage">
-              </a>
+              <img
+                class="projects"
+                src="week1-mini-project.png"
+                alt="Audi A4 S line webpage"
+              />
+            </a>
           </section>
           <!-- mini project 2 -->
           <section>
-              <a href="https://mohamedisaaq0.github.io/Week2-mini-project/">
-            <img class="week2" src="week2-mini-project.png" alt="css snippet cheatsheet webpage">
-          </a>
-        </section>
+              <h2>Project 2</h2>
+            <a href="https://mohamedisaaq0.github.io/Week2-mini-project/">
+              <img
+                class="projects"
+                src="week2-mini-project.png"
+                alt="css snippet cheatsheet webpage"
+              />
+            </a>
+          </section>
         </div>
-        </section>
+      </section>
 
       <!--section for contact me-->
-      <section>
-          <h1>Contact Me</h1>
+      <section class="contact-me" id="contact-me">
+        <h1>Contact Me</h1>
+        <ul>
+            <li><h3><span>📞</span> +447429237303</h3></li>
+            <li><h3><a class="email" href = "mailto: mohamedisaaq0@gmail.com"><span>📧</span>Mohamedisaaq0@gmail.com</a> </h3></li>
+        </ul>
       </section>
     </main>
   </body>
