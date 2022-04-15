@@ -1,6 +1,3 @@
-.root {
-    --blue:#2a607c;
-}
 
 html {
     font-size: 10pt;
@@ -25,6 +22,7 @@ body {
 .header {
     margin: 1.4rem;
     font-size: 4rem;
+    font-family: cursive;
 }
 
 
@@ -53,21 +51,7 @@ body {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 596px) {
-    .header-container {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .header {
-        font-size: 2.5rem;
-    }
-
-    .nav-link a {
-        font-size: medium;
-    }
-    
-}
 
 
 /* profile pic styling */
@@ -75,9 +59,8 @@ body {
 .image-container{
     background-image: url("");
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+justify-content: center;
+    
 }
 
 .profile-pic {
@@ -93,27 +76,94 @@ body {
     .image-container {
         display: flex ;
         flex-wrap: wrap;
-        width: 0%;
     }
     
 }
 
-/* Section - About me */
 
-.about-me {
+main {
     margin: 20px;
 }
 
-.h1-me {
+h1 {
     font-size: 2.6rem;
     border-bottom: 2px dotted #2a607c ;
 }
 
-.h1-me:hover {
-    font-size: 3rem;
+
+/* Section - About me */
+
+.about-me-container {
+    flex-wrap: wrap;
+    margin: 2;
+    justify-content: center;
 }
 
 
 .about-paragraph {
     font-size: 1.6rem;
+}
+
+/* Section - work */
+
+img {
+max-width: 300px;
+max-height: 500px;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+    margin-left: 50px;
+}
+
+
+@media screen and (max-width: 596px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header {
+        font-size: 2.5rem;
+    }
+
+    .nav-link a {
+        font-size: medium;
+    }
+
+     div {
+        gap: 50px
+    }
+
+    img {
+        margin-left: 65px
+    }
+    
+}
+
+
+@media screen and (max-width: 789px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header {
+        font-size: 2.5rem;
+    }
+
+    .nav-link a {
+        font-size: medium;
+    }
+
+     div {
+        gap: 50px
+    }
+
+    img {
+        margin-left: 65px
+    }
+    
 }
