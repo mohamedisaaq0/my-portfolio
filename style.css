@@ -143,9 +143,6 @@ ul {
     color: black;
 }
 
-li:hover {
-    transform: scale(2);
-}
 h3 {
     font-size: x-large;
 }
@@ -171,11 +168,10 @@ span {
     }
 
     .work-flex {
-        gap: 50px
+        margin-left: 0%;
+        justify-content: center;
     }
 
-    img {
-        margin-left: 65px
     }
 
         .image-container {
@@ -186,9 +182,12 @@ span {
     ul {
         list-style-type: none;
         display: flex;
-        justify-content: center;
+        justify-content:baseline;
         gap: 0px;
         flex-wrap: wrap;
     }
-    
+    .projects:hover {
+        transform: scale(1.2);
+        border-radius: 0%;
+    }
 }
