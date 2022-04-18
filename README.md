@@ -22,7 +22,7 @@ This is the final section which will have my contact details such as my phone nu
 
 ##### Extra bits
 
-this is the link to the depolyed application: https://mohamedisaaq0.github.io/my-portfolio/ and below will be the preview of the application
+This is the link to the deployed application: https://mohamedisaaq0.github.io/my-portfolio/ and below will be the preview of the application
 
 
 ![My Portfolio webpage](preview.png)
