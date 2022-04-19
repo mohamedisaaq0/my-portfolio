@@ -124,16 +124,23 @@ flex-direction: column;
 .work-flex {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 150px;
-    margin-left: 100px;
+    
 }
 
 .project-container {
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-self: stretch;
 }
 
 .semantic-pic {
     border-radius: 5%;
+    max-width: 100%;
 }
 
 
@@ -181,12 +188,6 @@ span {
         justify-content: center;
     }
 
-    .semantic-pic {
-        max-width: 300px;
-        max-height: 500px;
-        border-radius: 5%;
-    }
-
         .image-container {
         display: flex ;
         flex-wrap: wrap;
@@ -205,3 +206,5 @@ span {
         border-radius: 0%;
     }
 }
+
+
