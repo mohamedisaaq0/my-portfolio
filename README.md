@@ -1,6 +1,6 @@
 # My  Portfolio
 
-This project is divided into 4 Sections: A Header, An about me section, work section and lastly a contact me section.
+This project is a portfolio of myself. I have used HTMl layout and CSS styling. it uses technologies like media queries and flexx to make the page responsive.
    
 ### The Header 
 
